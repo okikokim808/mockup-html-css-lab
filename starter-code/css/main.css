@@ -1,0 +1,58 @@
+*{
+    font-family: lato;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+}
+h1 a{
+    color: #FFD97A;
+    font-weight: lighter;
+    text-decoration: none;
+}
+header h2{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+header nav a{
+    color: gainsboro;
+    padding: 2px;
+    margin: 4px;
+    border-bottom: solid 1px gainsboro;
+    text-decoration: none;
+    display: inline;
+}
+article h3{
+    color: gainsboro;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    text-align: left;
+    
+}
+h2 a{
+    font-weight: lighter;
+    margin-top: 0px;
+    color: black;
+    text-decoration: none;
+    border-top:0px;
+}
+img{
+    max-width: 80%;
+}
+p{
+    color: gray;
+    font-size: 12px;
+    max-width: 80%;
+}
+ p::first-letter {
+    font-size: 500%;
+    position: static;
+    float: left;
+    margin-top: 0px;
+    color: gainsboro;
+}
+h4 a{
+    text-decoration: none;
+}
