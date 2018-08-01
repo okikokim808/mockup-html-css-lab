@@ -44,12 +44,10 @@ article h3{
 }
 h2 a{
     font-weight: lighter;
-    margin-top: 0px;
     color: black;
     text-decoration: none;
-    padding-left: 0px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 img{
     padding-top: 10px;
@@ -57,8 +55,8 @@ img{
 p{
     color: gray;
     font-size: 12px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
  article p::first-letter {
     font-size: 6em;
@@ -71,6 +69,7 @@ h4 a{
     float: right;
     color: #FFD97A;
     border-bottom:1px solid lightgray;
+    padding-bottom: 30px;
 }
 article {
     max-width: 90%;
@@ -78,9 +77,8 @@ article {
 }
 footer nav a{
     color: #FFD97A;
-    padding-top: 25px;
-    margin-top: 30px;
-    padding-bottom: 25px;
+    margin-top: 55px;
+    margin-bottom: 25px;
     display:inline-block;
 }
 nav {
@@ -88,7 +86,6 @@ nav {
     padding: 2px;
 }
 footer p{
-    padding-top: 15px;
-    padding-bottom: 30px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
