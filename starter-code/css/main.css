@@ -3,56 +3,105 @@
     font-weight: lighter;
     margin: 0px;
     padding: 0px;
+    padding-left: 15px;
+    position: inherit;
 }
 h1 a{
+    padding-top: 15px;
+    margin-top: 20px;
     color: #FFD97A;
     font-weight: lighter;
     text-decoration: none;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
 }
 header h2{
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 10px;
     font-size: 20px;
     font-weight: lighter;
 }
 header nav a{
     color: gainsboro;
     padding: 2px;
-    margin: 4px;
+    margin: 10px;
+    margin-left: 15px;
+    font-size: 15px;
     border-bottom: solid 1px gainsboro;
     text-decoration: none;
     display: inline;
 }
 article h3{
     color: gainsboro;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: lighter;
     margin-bottom: 0px;
     margin-left: 2px;
     text-align: left;
-    
+    padding-top: 40px;
 }
 h2 a{
     font-weight: lighter;
     margin-top: 0px;
     color: black;
     text-decoration: none;
-    border-top:0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 img{
+    padding-top: 10px;
     max-width: 80%;
 }
 p{
     color: gray;
     font-size: 12px;
     max-width: 80%;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
- p::first-letter {
-    font-size: 500%;
-    position: static;
+ article p::first-letter {
+    font-size: 6em;
     float: left;
-    margin-top: 0px;
+    display: inline-block;
+    padding: 0px;
+    margin:0px;
     color: gainsboro;
 }
 h4 a{
     text-decoration: none;
+    text-indent: 80%;
+    float: right;
+    clear: top;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    color: #FFD97A;
+    border-bottom:1px solid lightgray;
+    display: inline-block;
+    margin-right: 50px;
+}
+article {
+    padding-right: 0px;
+    max-width: 90%;
+    margin-bottom: 30px;
+}
+footer nav a{
+    padding-left: 0;
+    color: #FFD97A;
+    padding-top: 25px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+    display:inline-block;
+}
+nav {
+    color: lightgray;
+    padding: 2px;
+}
+footer p{
+    padding-left: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
 }
