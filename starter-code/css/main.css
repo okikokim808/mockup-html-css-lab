@@ -5,6 +5,7 @@
     padding: 0px;
     padding-left: 15px;
     position: inherit;
+    max-width: 80%;
 }
 h1 a{
     padding-top: 15px;
@@ -57,7 +58,7 @@ img{
 p{
     color: gray;
     font-size: 12px;
-    max-width: 80%;
+    max-width: 100%;
     padding-top: 15px;
     padding-bottom: 20px;
 }
@@ -71,16 +72,10 @@ p{
 }
 h4 a{
     text-decoration: none;
-    text-indent: 80%;
     float: right;
-    clear: top;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
     color: #FFD97A;
     border-bottom:1px solid lightgray;
-    display: inline-block;
-    margin-right: 50px;
+    max-width: 80%;
 }
 article {
     padding-right: 0px;
